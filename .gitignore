@@ -1,0 +1,35 @@
+# IDE
+*.iml
+.idea
+.vscode
+
+# OS
+.DS_Store
+
+# JS
+node_modules
+
+# Go
+/vendor
+
+# Misc
+*.db
+*.db-shm
+*.db-wal
+gatus
+config/config.yml
+config.yaml
+# SammyPulse project
+!config.yaml
+
+# Secrets and local files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.*
