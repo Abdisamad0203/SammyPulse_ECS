@@ -33,3 +33,5 @@ config.yaml
 .terraform/
 *.tfstate
 *.tfstate.*
+crash.log
+
